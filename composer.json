@@ -1,0 +1,19 @@
+{
+  "name": "turkishjoe/proxy-wrapper",
+  "description": "Proxy",
+  "type": "library",
+  "authors": [
+    {
+      "name": "turkishjoe",
+      "email": "turkishjoe283@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.1",
+    "php-curl-class/php-curl-class": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {"": "src/"}
+  }
+}
