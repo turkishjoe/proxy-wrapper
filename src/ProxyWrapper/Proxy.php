@@ -162,7 +162,7 @@ class Proxy
 
     protected function getSpotifyType(){
         //TODO: В конснтанты
-        if($this->type = 'https' || $this->type = 'http'){
+        if($this->type === 'https' || $this->type === 'http'){
             return 'http';
         }
 
